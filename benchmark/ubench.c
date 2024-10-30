@@ -508,7 +508,7 @@ err_destroy_context:
 
 // TODO add IPC benchmark for CUDA
 
-UBENCH_MAIN()
+UBENCH_MAIN_COMPILATION_FAIL()
 
 #if defined(_MSC_VER)
 #pragma warning(pop)
